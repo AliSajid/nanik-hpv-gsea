@@ -1,2 +1,6 @@
 [tools]
-"github:nbafrank/uvr" = "0.4.6"
+"github:eitsupi/arf" = "0.5.3"
+
+[env]
+KMP_DUPLICATE_LIB_OK = true
+RENV_CONFIG_USER_PROFILE = true
