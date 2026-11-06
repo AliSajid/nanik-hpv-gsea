@@ -29,10 +29,8 @@ library(patchwork)
 library(BiocParallel)
 register(SerialParam())
 
-setwd("C:/Users/Nanik Wahrhausen/Documents/R Projekte")
-
 # 1. Excel‑Pfad und Sheets
-path <- "C:/Users/Nanik Wahrhausen/Documents/R Projekte/04.1_DESeq2_coding_total_optimized/20251204_analysis_files/20251204_coding_total_results.xlsx"
+path <- file.path("data", "nanik", "20251204_coding_total_results.xlsx")
 
 sheet_names <- c(
   "HPV_Main_Effect_All",
