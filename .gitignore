@@ -408,3 +408,10 @@ $RECYCLE.BIN/
 
 # Ignore the .uvr/library
 .uvr/library
+
+# Ignore the RStudio projectile
+*.Rproj
+
+# Ignore binary image files
+*.png
+*.pdf
